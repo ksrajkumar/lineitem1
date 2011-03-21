@@ -1,0 +1,10 @@
+<div class="field">
+
+<%= fields_for "interview[new_applicant_attributes[]]", applicant_object do |applicant_form| %>
+
+<%= "applicant" %>
+
+<%= applicant_form.text_field :name %>
+<% end %>
+
+</div>
